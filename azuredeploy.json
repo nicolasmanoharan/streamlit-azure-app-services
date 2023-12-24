@@ -47,7 +47,7 @@
       },
       "repoUrl": {
         "type": "string",
-        "defaultValue": "https://github.com/benalexkeen/streamlit-azure-app-services.git",
+        "defaultValue": "https://github.com/nicolasmanoharan/streamlit-azure-app-services.git",
         "metadata": {
           "description": "Git Repo URL"
         }
@@ -82,7 +82,7 @@
         "apiVersion": "2020-06-01",
         "name": "[parameters('webAppName')]",
         "location": "[parameters('location')]",
-  
+
         "dependsOn": [
           "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanPortalName'))]"
         ],
